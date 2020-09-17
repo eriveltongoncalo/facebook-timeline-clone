@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #F2F2F2;  
+}
+
+#app {
+  height: 100%;
+}
+header {
+  height: 64px;
+  background: #4A90E2;
+}
+
+header nav {
+  height: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+nav img {
+  height: 24px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login > span {
+  padding-right: 10px;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.postList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.post {
+  max-width: 700px;
+  display: flex;
+  flex-direction:column;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 5px 5px 4px #808080;
+  padding: 17px;
+  margin-bottom: 15px;
+}
+
+.info-user 
+{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 35px;
+  padding-left: 9px;
+}
+
+
+.info-user span + span 
+{
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height:15px;
+  color: #9A9A9A;
+}
+
+
+.header-of-post 
+{
+  display:flex;
+  flex-direction: row;
+}
+
+.avatar-of-post > img 
+{
+  border-radius: 50%;
+}
+
+.avatar-of-post 
+{
+  width: 36px;
+  height: 36px;
+}
+
+.txt-of-post
+{ 
+  padding-top: 25px;
+  /*text-align: justify;*/ 
+  
+}
+
+.row
+{
+  padding-top: 19px;
+  padding-bottom: 19px;
+  
+}
+
+.row > hr
+{
+  border: 1px solid #EEEEEE;
+}
+
+.avatar-of-comment > img
+{
+  border-radius: 50% ;
+}
+
+.comment
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7px;
+}
+
+.comment-of-txt
+{
+  width: 100%;
+  background: #EEEEEE;
+  border-radius: 20px;
+  margin: 0px 0px 0px 4px;
+}
+
+.comment-of-txt > div
+{
+  margin: 17px 13px 17px 13px;
+  text-align: justify;
+}
+
+/*Icon styles*/
+.material-icons.md-36 
+{ 
+  font-size: 36px; 
+}
+.material-icons.md-light 
+{ 
+  color: rgba(255, 255, 255, 1); 
+}
+

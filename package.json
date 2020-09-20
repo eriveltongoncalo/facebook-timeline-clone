@@ -1,6 +1,8 @@
 {
   "name": "facebook-timeline-clone",
   "version": "1.0.0",
+  "description": "Simple example of the Facebook's timeline made in ReactJS. ",
+  "author": "Erivelton Jesus",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -23,5 +25,9 @@
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "engines": {
+    "yarn": "1.16.0",
+    "node": "v13.7.0"
   }
 }

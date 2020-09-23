@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import Post from "./Post";
 import Header from './Header';
 
-const avatar = "https://i.pravatar.cc/150?img=51";
-
 class PostList extends Component {
   state = {
     posts: [
@@ -11,7 +9,7 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Julio Alcantara",
-          avatar: "https://i.pravatar.cc/150?img=54",
+          avatar: "https://www.coolgenerator.com/Pic/Face//male/male1084806240662.jpg",
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a XXX está contratando?",
@@ -20,7 +18,7 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Bruno Antunes",
-              avatar: "https://i.pravatar.cc/150?img=55",
+              avatar: "https://www.coolgenerator.com/Pic/Face//male/male20171086722889709.jpg",
             },
             content: `Eles estão sempre contratando. Tenta mandar seu curriculo,
             vai que você consegue.`,
@@ -29,7 +27,7 @@ class PostList extends Component {
             id: 2,
             author: {
               name: "Erivelton Gonçalo",
-              avatar: "https://i.pravatar.cc/150?img=56",
+              avatar: "https://www.coolgenerator.com/Pic/Face//male/male20171085985453674.jpg",
             },
             content: `O Felipe da XXX falou em um de seus videos para
             enviar o curriculo para novostalentos@xxx.com`,
@@ -38,7 +36,7 @@ class PostList extends Component {
             id: 3,
             author: {
               name: "Steve Evans",
-              avatar: "https://i.pravatar.cc/150?img=60",
+              avatar: "https://www.coolgenerator.com/Pic/Face//male/male20161086272161072.jpg",
             },
             content: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of 
             classical Latin literature from 45 BC, making it over 2000 years old.`,
@@ -49,7 +47,7 @@ class PostList extends Component {
         id: 2,
         author: {
           name: "João",
-          avatar: "https://i.pravatar.cc/150?img=70",
+          avatar: "https://www.coolgenerator.com/Pic/Face//male/male20161086666815551.jpg",
         },
         date: "05 Ago 2019",
         content: `O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500,
@@ -59,15 +57,15 @@ class PostList extends Component {
             id: 2,
             author: {
               name: "Sivio Fernandes",
-              avatar: "https://i.pravatar.cc/150?img=69",
+              avatar: "https://www.coolgenerator.com/Pic/Face//male/male20161083900372070.jpg",
             },
             content: `O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.`,
           },
           {
             id: 3,
             author: {
-              name: "Erivelton Gonçalo",
-              avatar: "https://i.pravatar.cc/150?img=56",
+              name: "Thomas Evans",
+              avatar: "https://www.coolgenerator.com/Pic/Face//male/male1085217618561.jpg",
             },
             content: `O Diego da RocketSeat falou em um de seus videos para
             enviar o curriculo para novostalentos@rocketseat.com`,
@@ -76,7 +74,7 @@ class PostList extends Component {
             id: 4,
             author: {
               name: "Steve Evans",
-              avatar: "https://i.pravatar.cc/150?img=60",
+              avatar: "https://www.coolgenerator.com/Pic/Face//male/male10858051008.jpg",
             },
             content: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of 
             classical Latin literature from 45 BC, making it over 2000 years old.`,

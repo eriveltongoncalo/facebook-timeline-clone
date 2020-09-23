@@ -7,6 +7,8 @@
 
 > Simple example of the Facebook's timeline made in ReactJS. 
 
+![](images/facebook-timeline.png
+
 ## Prerequisites
 
 - yarn 1.16.0

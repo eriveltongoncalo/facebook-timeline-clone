@@ -7,7 +7,7 @@
 
 > Simple example of the Facebook's timeline made in ReactJS. 
 
-<img src="/images/facebook-timeline.png" width="1031" />
+<img src="/images/facebook-timeline.png" width="838" height="569" />
 
 ## Prerequisites
 
